@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FC40B1E0FF5205E9E17EF4 /* Pods_Elenkos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE5957E9D5095363B36EC32 /* Pods_Elenkos.framework */; };
+		DA15834E1DE2892500B98150 /* BoyWorking2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA15834D1DE2892500B98150 /* BoyWorking2.atlas */; };
+		DA1583501DE2A21D00B98150 /* BoyIsWorkingContinuous.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA15834F1DE2A21D00B98150 /* BoyIsWorkingContinuous.sks */; };
+		DA1583521DE2A24100B98150 /* BoyIsWorkingContinuous.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1583511DE2A24100B98150 /* BoyIsWorkingContinuous.swift */; };
+		DA1583561DE3D6C000B98150 /* GrandpaWorking2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA1583551DE3D6C000B98150 /* GrandpaWorking2.atlas */; };
+		DA36908F1DB09A3B00C6A057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA36908E1DB09A3B00C6A057 /* AppDelegate.swift */; };
+		DA3690911DB09A3B00C6A057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3690901DB09A3B00C6A057 /* ViewController.swift */; };
+		DA3690941DB09A3B00C6A057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3690921DB09A3B00C6A057 /* Main.storyboard */; };
+		DA3690971DB09A3B00C6A057 /* Elenkos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA3690951DB09A3B00C6A057 /* Elenkos.xcdatamodeld */; };
+		DA3690991DB09A3B00C6A057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3690981DB09A3B00C6A057 /* Assets.xcassets */; };
+		DA3690A71DB09A3C00C6A057 /* ElenkosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3690A61DB09A3C00C6A057 /* ElenkosTests.swift */; };
+		DA3690B21DB09A3C00C6A057 /* ElenkosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3690B11DB09A3C00C6A057 /* ElenkosUITests.swift */; };
+		DA3B25E71DEE49F3007ABBC3 /* BoyIsCorrect2.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA3B25E61DEE49F3007ABBC3 /* BoyIsCorrect2.sks */; };
+		DA3B25E91DEE4A05007ABBC3 /* BoyIsWrong2.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA3B25E81DEE4A05007ABBC3 /* BoyIsWrong2.sks */; };
+		DA3B25EB1DEE4A22007ABBC3 /* BoyIsCorrect2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B25EA1DEE4A22007ABBC3 /* BoyIsCorrect2.swift */; };
+		DA3B25ED1DEE4A2B007ABBC3 /* BoyIsWrong2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B25EC1DEE4A2B007ABBC3 /* BoyIsWrong2.swift */; };
+		DA3B25EF1DF0C7EE007ABBC3 /* BoyCorrect2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA3B25EE1DF0C7EE007ABBC3 /* BoyCorrect2.atlas */; };
+		DA3B25F11DF0D517007ABBC3 /* GrandpaCorrect2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA3B25F01DF0D517007ABBC3 /* GrandpaCorrect2.atlas */; };
+		DA434D9D1DD7BFC900A690A5 /* GrandpaDistracted.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA434D9C1DD7BFC900A690A5 /* GrandpaDistracted.atlas */; };
+		DA54DC161DD5492F00E3B2AF /* GrandpaWorking.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA54DC151DD5492F00E3B2AF /* GrandpaWorking.atlas */; };
+		DA54DC181DD5497600E3B2AF /* BoyWrong.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA54DC171DD5497600E3B2AF /* BoyWrong.atlas */; };
+		DA54DC1A1DD549A200E3B2AF /* GrandpaWrong.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA54DC191DD549A200E3B2AF /* GrandpaWrong.atlas */; };
+		DA7335801DDBCFFA003FC7C8 /* Elenkos1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA73357D1DDBCFFA003FC7C8 /* Elenkos1.png */; };
+		DA7335811DDBCFFA003FC7C8 /* Enkos2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA73357E1DDBCFFA003FC7C8 /* Enkos2.png */; };
+		DA7335821DDBCFFA003FC7C8 /* Enkos3.png in Resources */ = {isa = PBXBuildFile; fileRef = DA73357F1DDBCFFA003FC7C8 /* Enkos3.png */; };
+		DA7335841DDBDA61003FC7C8 /* Enkos4.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7335831DDBDA61003FC7C8 /* Enkos4.png */; };
+		DA7580AF1DD47C9400E040FA /* BoyIsCorrect.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA7580AE1DD47C9400E040FA /* BoyIsCorrect.sks */; };
+		DA7580B11DD47CA400E040FA /* BoyIsCorrect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7580B01DD47CA400E040FA /* BoyIsCorrect.swift */; };
+		DA7580B41DD47FB100E040FA /* GirlIsCorrect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7580B31DD47FB100E040FA /* GirlIsCorrect.swift */; };
+		DA7580B61DD47FC400E040FA /* GirlIsCorrect.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA7580B51DD47FC400E040FA /* GirlIsCorrect.sks */; };
+		DA7580BA1DD548D600E040FA /* BoyWorking.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA7580B91DD548D600E040FA /* BoyWorking.atlas */; };
+		DA7647091DD2C37800153010 /* Media.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA7647081DD2C37800153010 /* Media.atlas */; };
+		DA76470D1DD446C900153010 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA76470C1DD446C900153010 /* MyScene.sks */; };
+		DA76470F1DD446F600153010 /* MyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA76470E1DD446F600153010 /* MyScene.swift */; };
+		DA7647111DD456C200153010 /* GrandpaCorrect.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA7647101DD456C200153010 /* GrandpaCorrect.atlas */; };
+		DAB4E63F1DB3E352002C41DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4E63E1DB3E352002C41DB /* LoginViewController.swift */; };
+		DAB4E6411DB3E668002C41DB /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4E6401DB3E668002C41DB /* MainScreenViewController.swift */; };
+		DAB4E6461DB3E6B1002C41DB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4E6451DB3E6B1002C41DB /* MBProgressHUD.m */; };
+		DAB4E6491DB3E6D1002C41DB /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4E6481DB3E6D1002C41DB /* AEXML.swift */; };
+		DAB4E64B1DB3F529002C41DB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4E64A1DB3F529002C41DB /* RegisterViewController.swift */; };
+		DAB4E64D1DB3FBB3002C41DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAB4E64C1DB3FBB3002C41DB /* GoogleService-Info.plist */; };
+		DAB4E64F1DB3FCDC002C41DB /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4E64E1DB3FCDC002C41DB /* CommonUtils.swift */; };
+		DAB4E6511DB403DC002C41DB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4E6501DB403DC002C41DB /* AppState.swift */; };
+		DAB4E6551DB406C5002C41DB /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4E6541DB406C5002C41DB /* Question1ViewController.swift */; };
+		DADD22301DC06C0C006B8A4F /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD222F1DC06C0C006B8A4F /* AnalysisViewController.swift */; };
+		DAEE4F4F1DED23B300048165 /* BoyWrong2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAEE4F4E1DED23B300048165 /* BoyWrong2.atlas */; };
+		DAEE4F511DED30B100048165 /* GrandpaWrong2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAEE4F501DED30B100048165 /* GrandpaWrong2.atlas */; };
+		DAF4A03C1DD46130003CB45F /* BoyCorrect.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAF4A03B1DD46130003CB45F /* BoyCorrect.atlas */; };
+		DAF4A0401DD464CC003CB45F /* GirlCorrect.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAF4A03F1DD464CB003CB45F /* GirlCorrect.atlas */; };
+		DAF596DD1DD54A09000E8EC2 /* BoyStall.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAF596DC1DD54A09000E8EC2 /* BoyStall.atlas */; };
+		DAF596DF1DD56221000E8EC2 /* BoyIsWrong.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAF596DE1DD56221000E8EC2 /* BoyIsWrong.sks */; };
+		DAF596E11DD56239000E8EC2 /* BoyIsWrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF596E01DD56239000E8EC2 /* BoyIsWrong.swift */; };
+		DAF596E31DD56494000E8EC2 /* BoyIsDistracted.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF596E21DD56494000E8EC2 /* BoyIsDistracted.swift */; };
+		DAF596E51DD564A4000E8EC2 /* BoyIsDistracted.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAF596E41DD564A4000E8EC2 /* BoyIsDistracted.sks */; };
+		DAF596E71DD568F4000E8EC2 /* BoyIsWorking.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAF596E61DD568F4000E8EC2 /* BoyIsWorking.sks */; };
+		DAF596E91DD56949000E8EC2 /* BoyIsWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF596E81DD56949000E8EC2 /* BoyIsWorking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA3690A31DB09A3C00C6A057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3690831DB09A3B00C6A057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA36908A1DB09A3B00C6A057;
+			remoteInfo = Elenkos;
+		};
+		DA3690AE1DB09A3C00C6A057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3690831DB09A3B00C6A057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA36908A1DB09A3B00C6A057;
+			remoteInfo = Elenkos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE5957E9D5095363B36EC32 /* Pods_Elenkos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elenkos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34679EC585D4D12E72A6C709 /* Pods-Elenkos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elenkos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elenkos/Pods-Elenkos.release.xcconfig"; sourceTree = "<group>"; };
+		36CCA2A4976ECC9AD6944348 /* Pods-Elenkos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elenkos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elenkos/Pods-Elenkos.debug.xcconfig"; sourceTree = "<group>"; };
+		DA15834D1DE2892500B98150 /* BoyWorking2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BoyWorking2.atlas; sourceTree = "<group>"; };
+		DA15834F1DE2A21D00B98150 /* BoyIsWorkingContinuous.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoyIsWorkingContinuous.sks; sourceTree = "<group>"; };
+		DA1583511DE2A24100B98150 /* BoyIsWorkingContinuous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyIsWorkingContinuous.swift; sourceTree = "<group>"; };
+		DA1583551DE3D6C000B98150 /* GrandpaWorking2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GrandpaWorking2.atlas; sourceTree = "<group>"; };
+		DA36908B1DB09A3B00C6A057 /* Enkos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enkos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA36908E1DB09A3B00C6A057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA3690901DB09A3B00C6A057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA3690931DB09A3B00C6A057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA3690961DB09A3B00C6A057 /* Elenkos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Elenkos.xcdatamodel; sourceTree = "<group>"; };
+		DA3690981DB09A3B00C6A057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA36909D1DB09A3B00C6A057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3690A21DB09A3C00C6A057 /* ElenkosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenkosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3690A61DB09A3C00C6A057 /* ElenkosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElenkosTests.swift; sourceTree = "<group>"; };
+		DA3690A81DB09A3C00C6A057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3690AD1DB09A3C00C6A057 /* ElenkosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElenkosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3690B11DB09A3C00C6A057 /* ElenkosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElenkosUITests.swift; sourceTree = "<group>"; };
+		DA3690B31DB09A3C00C6A057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3B25E61DEE49F3007ABBC3 /* BoyIsCorrect2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoyIsCorrect2.sks; sourceTree = "<group>"; };
+		DA3B25E81DEE4A05007ABBC3 /* BoyIsWrong2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoyIsWrong2.sks; sourceTree = "<group>"; };
+		DA3B25EA1DEE4A22007ABBC3 /* BoyIsCorrect2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyIsCorrect2.swift; sourceTree = "<group>"; };
+		DA3B25EC1DEE4A2B007ABBC3 /* BoyIsWrong2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyIsWrong2.swift; sourceTree = "<group>"; };
+		DA3B25EE1DF0C7EE007ABBC3 /* BoyCorrect2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BoyCorrect2.atlas; sourceTree = "<group>"; };
+		DA3B25F01DF0D517007ABBC3 /* GrandpaCorrect2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GrandpaCorrect2.atlas; sourceTree = "<group>"; };
+		DA434D9C1DD7BFC900A690A5 /* GrandpaDistracted.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GrandpaDistracted.atlas; sourceTree = "<group>"; };
+		DA54DC151DD5492F00E3B2AF /* GrandpaWorking.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GrandpaWorking.atlas; sourceTree = "<group>"; };
+		DA54DC171DD5497600E3B2AF /* BoyWrong.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BoyWrong.atlas; sourceTree = "<group>"; };
+		DA54DC191DD549A200E3B2AF /* GrandpaWrong.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GrandpaWrong.atlas; sourceTree = "<group>"; };
+		DA73357D1DDBCFFA003FC7C8 /* Elenkos1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elenkos1.png; sourceTree = "<group>"; };
+		DA73357E1DDBCFFA003FC7C8 /* Enkos2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enkos2.png; sourceTree = "<group>"; };
+		DA73357F1DDBCFFA003FC7C8 /* Enkos3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enkos3.png; sourceTree = "<group>"; };
+		DA7335831DDBDA61003FC7C8 /* Enkos4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enkos4.png; sourceTree = "<group>"; };
+		DA7580AE1DD47C9400E040FA /* BoyIsCorrect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoyIsCorrect.sks; sourceTree = "<group>"; };
+		DA7580B01DD47CA400E040FA /* BoyIsCorrect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyIsCorrect.swift; sourceTree = "<group>"; };
+		DA7580B31DD47FB100E040FA /* GirlIsCorrect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GirlIsCorrect.swift; sourceTree = "<group>"; };
+		DA7580B51DD47FC400E040FA /* GirlIsCorrect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GirlIsCorrect.sks; sourceTree = "<group>"; };
+		DA7580B91DD548D600E040FA /* BoyWorking.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BoyWorking.atlas; sourceTree = "<group>"; };
+		DA7647081DD2C37800153010 /* Media.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Media.atlas; sourceTree = "<group>"; };
+		DA76470C1DD446C900153010 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		DA76470E1DD446F600153010 /* MyScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScene.swift; sourceTree = "<group>"; };
+		DA7647101DD456C200153010 /* GrandpaCorrect.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GrandpaCorrect.atlas; sourceTree = "<group>"; };
+		DAB4E63E1DB3E352002C41DB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DAB4E6401DB3E668002C41DB /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		DAB4E6431DB3E696002C41DB /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		DAB4E6441DB3E6B1002C41DB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DAB4E6451DB3E6B1002C41DB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DAB4E6481DB3E6D1002C41DB /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		DAB4E64A1DB3F529002C41DB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DAB4E64C1DB3FBB3002C41DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAB4E64E1DB3FCDC002C41DB /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		DAB4E6501DB403DC002C41DB /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		DAB4E6541DB406C5002C41DB /* Question1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
+		DADD222F1DC06C0C006B8A4F /* AnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+		DAEE4F4E1DED23B300048165 /* BoyWrong2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BoyWrong2.atlas; sourceTree = "<group>"; };
+		DAEE4F501DED30B100048165 /* GrandpaWrong2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GrandpaWrong2.atlas; sourceTree = "<group>"; };
+		DAF4A03B1DD46130003CB45F /* BoyCorrect.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BoyCorrect.atlas; sourceTree = "<group>"; };
+		DAF4A03F1DD464CB003CB45F /* GirlCorrect.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GirlCorrect.atlas; sourceTree = "<group>"; };
+		DAF596DC1DD54A09000E8EC2 /* BoyStall.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = BoyStall.atlas; path = ../BoyStall.atlas; sourceTree = "<group>"; };
+		DAF596DE1DD56221000E8EC2 /* BoyIsWrong.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoyIsWrong.sks; sourceTree = "<group>"; };
+		DAF596E01DD56239000E8EC2 /* BoyIsWrong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyIsWrong.swift; sourceTree = "<group>"; };
+		DAF596E21DD56494000E8EC2 /* BoyIsDistracted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyIsDistracted.swift; sourceTree = "<group>"; };
+		DAF596E41DD564A4000E8EC2 /* BoyIsDistracted.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoyIsDistracted.sks; sourceTree = "<group>"; };
+		DAF596E61DD568F4000E8EC2 /* BoyIsWorking.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoyIsWorking.sks; sourceTree = "<group>"; };
+		DAF596E81DD56949000E8EC2 /* BoyIsWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoyIsWorking.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3690881DB09A3B00C6A057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FC40B1E0FF5205E9E17EF4 /* Pods_Elenkos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA36909F1DB09A3C00C6A057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3690AA1DB09A3C00C6A057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013859043DF87D1EB1F43669 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36CCA2A4976ECC9AD6944348 /* Pods-Elenkos.debug.xcconfig */,
+				34679EC585D4D12E72A6C709 /* Pods-Elenkos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5B7CF3DFF8DE602CF72A6FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BE5957E9D5095363B36EC32 /* Pods_Elenkos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA066FD91DBDA8B1004B8415 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				DA7335831DDBDA61003FC7C8 /* Enkos4.png */,
+				DA73357D1DDBCFFA003FC7C8 /* Elenkos1.png */,
+				DA73357E1DDBCFFA003FC7C8 /* Enkos2.png */,
+				DA73357F1DDBCFFA003FC7C8 /* Enkos3.png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		DA3690821DB09A3B00C6A057 = {
+			isa = PBXGroup;
+			children = (
+				DAB4E6431DB3E696002C41DB /* Bridging-Header.h */,
+				DA36908D1DB09A3B00C6A057 /* Elenkos */,
+				DA3690A51DB09A3C00C6A057 /* ElenkosTests */,
+				DA3690B01DB09A3C00C6A057 /* ElenkosUITests */,
+				DA36908C1DB09A3B00C6A057 /* Products */,
+				013859043DF87D1EB1F43669 /* Pods */,
+				B5B7CF3DFF8DE602CF72A6FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA36908C1DB09A3B00C6A057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA36908B1DB09A3B00C6A057 /* Enkos.app */,
+				DA3690A21DB09A3C00C6A057 /* ElenkosTests.xctest */,
+				DA3690AD1DB09A3C00C6A057 /* ElenkosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA36908D1DB09A3B00C6A057 /* Elenkos */ = {
+			isa = PBXGroup;
+			children = (
+				DA36908E1DB09A3B00C6A057 /* AppDelegate.swift */,
+				DA3690901DB09A3B00C6A057 /* ViewController.swift */,
+				DAB4E63E1DB3E352002C41DB /* LoginViewController.swift */,
+				DAB4E64A1DB3F529002C41DB /* RegisterViewController.swift */,
+				DAB4E6401DB3E668002C41DB /* MainScreenViewController.swift */,
+				DAB4E6541DB406C5002C41DB /* Question1ViewController.swift */,
+				DADD222F1DC06C0C006B8A4F /* AnalysisViewController.swift */,
+				DA7580B21DD47CAC00E040FA /* Sprites */,
+				DAB4E6421DB3E679002C41DB /* Helper Files */,
+				DA3690921DB09A3B00C6A057 /* Main.storyboard */,
+				DA36909D1DB09A3B00C6A057 /* Info.plist */,
+				DA3690951DB09A3B00C6A057 /* Elenkos.xcdatamodeld */,
+				DAB4E64C1DB3FBB3002C41DB /* GoogleService-Info.plist */,
+				DA066FD91DBDA8B1004B8415 /* Pictures */,
+				DA3690981DB09A3B00C6A057 /* Assets.xcassets */,
+				DA7580B91DD548D600E040FA /* BoyWorking.atlas */,
+				DA15834D1DE2892500B98150 /* BoyWorking2.atlas */,
+				DAF4A03B1DD46130003CB45F /* BoyCorrect.atlas */,
+				DA3B25EE1DF0C7EE007ABBC3 /* BoyCorrect2.atlas */,
+				DA54DC171DD5497600E3B2AF /* BoyWrong.atlas */,
+				DAEE4F4E1DED23B300048165 /* BoyWrong2.atlas */,
+				DAF596DC1DD54A09000E8EC2 /* BoyStall.atlas */,
+				DA7647101DD456C200153010 /* GrandpaCorrect.atlas */,
+				DA3B25F01DF0D517007ABBC3 /* GrandpaCorrect2.atlas */,
+				DA54DC191DD549A200E3B2AF /* GrandpaWrong.atlas */,
+				DAEE4F501DED30B100048165 /* GrandpaWrong2.atlas */,
+				DA54DC151DD5492F00E3B2AF /* GrandpaWorking.atlas */,
+				DA1583551DE3D6C000B98150 /* GrandpaWorking2.atlas */,
+				DA434D9C1DD7BFC900A690A5 /* GrandpaDistracted.atlas */,
+				DAF4A03F1DD464CB003CB45F /* GirlCorrect.atlas */,
+				DA7647081DD2C37800153010 /* Media.atlas */,
+			);
+			path = Elenkos;
+			sourceTree = "<group>";
+		};
+		DA3690A51DB09A3C00C6A057 /* ElenkosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA3690A61DB09A3C00C6A057 /* ElenkosTests.swift */,
+				DA3690A81DB09A3C00C6A057 /* Info.plist */,
+			);
+			path = ElenkosTests;
+			sourceTree = "<group>";
+		};
+		DA3690B01DB09A3C00C6A057 /* ElenkosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA3690B11DB09A3C00C6A057 /* ElenkosUITests.swift */,
+				DA3690B31DB09A3C00C6A057 /* Info.plist */,
+			);
+			path = ElenkosUITests;
+			sourceTree = "<group>";
+		};
+		DA7580B21DD47CAC00E040FA /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				DAF596E81DD56949000E8EC2 /* BoyIsWorking.swift */,
+				DA1583511DE2A24100B98150 /* BoyIsWorkingContinuous.swift */,
+				DA7580B01DD47CA400E040FA /* BoyIsCorrect.swift */,
+				DA3B25EA1DEE4A22007ABBC3 /* BoyIsCorrect2.swift */,
+				DAF596E01DD56239000E8EC2 /* BoyIsWrong.swift */,
+				DA3B25EC1DEE4A2B007ABBC3 /* BoyIsWrong2.swift */,
+				DAF596E21DD56494000E8EC2 /* BoyIsDistracted.swift */,
+				DA7580B31DD47FB100E040FA /* GirlIsCorrect.swift */,
+				DA76470E1DD446F600153010 /* MyScene.swift */,
+				DAF596E61DD568F4000E8EC2 /* BoyIsWorking.sks */,
+				DA15834F1DE2A21D00B98150 /* BoyIsWorkingContinuous.sks */,
+				DA7580AE1DD47C9400E040FA /* BoyIsCorrect.sks */,
+				DA3B25E61DEE49F3007ABBC3 /* BoyIsCorrect2.sks */,
+				DAF596DE1DD56221000E8EC2 /* BoyIsWrong.sks */,
+				DA3B25E81DEE4A05007ABBC3 /* BoyIsWrong2.sks */,
+				DAF596E41DD564A4000E8EC2 /* BoyIsDistracted.sks */,
+				DA7580B51DD47FC400E040FA /* GirlIsCorrect.sks */,
+				DA76470C1DD446C900153010 /* MyScene.sks */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		DAB4E6421DB3E679002C41DB /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB4E64E1DB3FCDC002C41DB /* CommonUtils.swift */,
+				DAB4E6481DB3E6D1002C41DB /* AEXML.swift */,
+				DAB4E6501DB403DC002C41DB /* AppState.swift */,
+				DAB4E6471DB3E6BC002C41DB /* MBProgressHUD-master */,
+			);
+			name = "Helper Files";
+			sourceTree = "<group>";
+		};
+		DAB4E6471DB3E6BC002C41DB /* MBProgressHUD-master */ = {
+			isa = PBXGroup;
+			children = (
+				DAB4E6441DB3E6B1002C41DB /* MBProgressHUD.h */,
+				DAB4E6451DB3E6B1002C41DB /* MBProgressHUD.m */,
+			);
+			name = "MBProgressHUD-master";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA36908A1DB09A3B00C6A057 /* Elenkos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3690B61DB09A3C00C6A057 /* Build configuration list for PBXNativeTarget "Elenkos" */;
+			buildPhases = (
+				6C0B951BF3F0176C6EA2771A /* [CP] Check Pods Manifest.lock */,
+				DA3690871DB09A3B00C6A057 /* Sources */,
+				DA3690881DB09A3B00C6A057 /* Frameworks */,
+				DA3690891DB09A3B00C6A057 /* Resources */,
+				0CF38F1A0BC9D600B3DE9C69 /* [CP] Embed Pods Frameworks */,
+				A3959F203E0EAB291ADA533F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elenkos;
+			productName = Elenkos;
+			productReference = DA36908B1DB09A3B00C6A057 /* Enkos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA3690A11DB09A3C00C6A057 /* ElenkosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3690B91DB09A3C00C6A057 /* Build configuration list for PBXNativeTarget "ElenkosTests" */;
+			buildPhases = (
+				DA36909E1DB09A3C00C6A057 /* Sources */,
+				DA36909F1DB09A3C00C6A057 /* Frameworks */,
+				DA3690A01DB09A3C00C6A057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3690A41DB09A3C00C6A057 /* PBXTargetDependency */,
+			);
+			name = ElenkosTests;
+			productName = ElenkosTests;
+			productReference = DA3690A21DB09A3C00C6A057 /* ElenkosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA3690AC1DB09A3C00C6A057 /* ElenkosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3690BC1DB09A3C00C6A057 /* Build configuration list for PBXNativeTarget "ElenkosUITests" */;
+			buildPhases = (
+				DA3690A91DB09A3C00C6A057 /* Sources */,
+				DA3690AA1DB09A3C00C6A057 /* Frameworks */,
+				DA3690AB1DB09A3C00C6A057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3690AF1DB09A3C00C6A057 /* PBXTargetDependency */,
+			);
+			name = ElenkosUITests;
+			productName = ElenkosUITests;
+			productReference = DA3690AD1DB09A3C00C6A057 /* ElenkosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3690831DB09A3B00C6A057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Harloch;
+				TargetAttributes = {
+					DA36908A1DB09A3B00C6A057 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DA3690A11DB09A3C00C6A057 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA36908A1DB09A3B00C6A057;
+					};
+					DA3690AC1DB09A3C00C6A057 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA36908A1DB09A3B00C6A057;
+					};
+				};
+			};
+			buildConfigurationList = DA3690861DB09A3B00C6A057 /* Build configuration list for PBXProject "Elenkos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA3690821DB09A3B00C6A057;
+			productRefGroup = DA36908C1DB09A3B00C6A057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA36908A1DB09A3B00C6A057 /* Elenkos */,
+				DA3690A11DB09A3C00C6A057 /* ElenkosTests */,
+				DA3690AC1DB09A3C00C6A057 /* ElenkosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3690891DB09A3B00C6A057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7335841DDBDA61003FC7C8 /* Enkos4.png in Resources */,
+				DAF596DF1DD56221000E8EC2 /* BoyIsWrong.sks in Resources */,
+				DA7335801DDBCFFA003FC7C8 /* Elenkos1.png in Resources */,
+				DA7580B61DD47FC400E040FA /* GirlIsCorrect.sks in Resources */,
+				DA54DC1A1DD549A200E3B2AF /* GrandpaWrong.atlas in Resources */,
+				DA15834E1DE2892500B98150 /* BoyWorking2.atlas in Resources */,
+				DAEE4F4F1DED23B300048165 /* BoyWrong2.atlas in Resources */,
+				DA7335821DDBCFFA003FC7C8 /* Enkos3.png in Resources */,
+				DAB4E64D1DB3FBB3002C41DB /* GoogleService-Info.plist in Resources */,
+				DA3B25E71DEE49F3007ABBC3 /* BoyIsCorrect2.sks in Resources */,
+				DA7580AF1DD47C9400E040FA /* BoyIsCorrect.sks in Resources */,
+				DAEE4F511DED30B100048165 /* GrandpaWrong2.atlas in Resources */,
+				DA3690991DB09A3B00C6A057 /* Assets.xcassets in Resources */,
+				DAF596E71DD568F4000E8EC2 /* BoyIsWorking.sks in Resources */,
+				DA7647091DD2C37800153010 /* Media.atlas in Resources */,
+				DA1583501DE2A21D00B98150 /* BoyIsWorkingContinuous.sks in Resources */,
+				DA7335811DDBCFFA003FC7C8 /* Enkos2.png in Resources */,
+				DA54DC181DD5497600E3B2AF /* BoyWrong.atlas in Resources */,
+				DA3B25EF1DF0C7EE007ABBC3 /* BoyCorrect2.atlas in Resources */,
+				DA7580BA1DD548D600E040FA /* BoyWorking.atlas in Resources */,
+				DA76470D1DD446C900153010 /* MyScene.sks in Resources */,
+				DA3B25F11DF0D517007ABBC3 /* GrandpaCorrect2.atlas in Resources */,
+				DAF4A0401DD464CC003CB45F /* GirlCorrect.atlas in Resources */,
+				DA3690941DB09A3B00C6A057 /* Main.storyboard in Resources */,
+				DA54DC161DD5492F00E3B2AF /* GrandpaWorking.atlas in Resources */,
+				DA3B25E91DEE4A05007ABBC3 /* BoyIsWrong2.sks in Resources */,
+				DAF596DD1DD54A09000E8EC2 /* BoyStall.atlas in Resources */,
+				DAF596E51DD564A4000E8EC2 /* BoyIsDistracted.sks in Resources */,
+				DA1583561DE3D6C000B98150 /* GrandpaWorking2.atlas in Resources */,
+				DAF4A03C1DD46130003CB45F /* BoyCorrect.atlas in Resources */,
+				DA434D9D1DD7BFC900A690A5 /* GrandpaDistracted.atlas in Resources */,
+				DA7647111DD456C200153010 /* GrandpaCorrect.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3690A01DB09A3C00C6A057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3690AB1DB09A3C00C6A057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CF38F1A0BC9D600B3DE9C69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elenkos/Pods-Elenkos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0B951BF3F0176C6EA2771A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3959F203E0EAB291ADA533F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elenkos/Pods-Elenkos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3690871DB09A3B00C6A057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB4E6551DB406C5002C41DB /* Question1ViewController.swift in Sources */,
+				DA7580B41DD47FB100E040FA /* GirlIsCorrect.swift in Sources */,
+				DAB4E6411DB3E668002C41DB /* MainScreenViewController.swift in Sources */,
+				DA7580B11DD47CA400E040FA /* BoyIsCorrect.swift in Sources */,
+				DADD22301DC06C0C006B8A4F /* AnalysisViewController.swift in Sources */,
+				DAB4E6511DB403DC002C41DB /* AppState.swift in Sources */,
+				DAB4E6461DB3E6B1002C41DB /* MBProgressHUD.m in Sources */,
+				DAB4E63F1DB3E352002C41DB /* LoginViewController.swift in Sources */,
+				DAB4E64B1DB3F529002C41DB /* RegisterViewController.swift in Sources */,
+				DA3690971DB09A3B00C6A057 /* Elenkos.xcdatamodeld in Sources */,
+				DAB4E6491DB3E6D1002C41DB /* AEXML.swift in Sources */,
+				DA3690911DB09A3B00C6A057 /* ViewController.swift in Sources */,
+				DAF596E91DD56949000E8EC2 /* BoyIsWorking.swift in Sources */,
+				DAF596E31DD56494000E8EC2 /* BoyIsDistracted.swift in Sources */,
+				DA1583521DE2A24100B98150 /* BoyIsWorkingContinuous.swift in Sources */,
+				DAB4E64F1DB3FCDC002C41DB /* CommonUtils.swift in Sources */,
+				DA3B25ED1DEE4A2B007ABBC3 /* BoyIsWrong2.swift in Sources */,
+				DA3B25EB1DEE4A22007ABBC3 /* BoyIsCorrect2.swift in Sources */,
+				DA36908F1DB09A3B00C6A057 /* AppDelegate.swift in Sources */,
+				DAF596E11DD56239000E8EC2 /* BoyIsWrong.swift in Sources */,
+				DA76470F1DD446F600153010 /* MyScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA36909E1DB09A3C00C6A057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3690A71DB09A3C00C6A057 /* ElenkosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3690A91DB09A3C00C6A057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3690B21DB09A3C00C6A057 /* ElenkosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA3690A41DB09A3C00C6A057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA36908A1DB09A3B00C6A057 /* Elenkos */;
+			targetProxy = DA3690A31DB09A3C00C6A057 /* PBXContainerItemProxy */;
+		};
+		DA3690AF1DB09A3C00C6A057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA36908A1DB09A3B00C6A057 /* Elenkos */;
+			targetProxy = DA3690AE1DB09A3C00C6A057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA3690921DB09A3B00C6A057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3690931DB09A3B00C6A057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA3690B41DB09A3C00C6A057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DA3690B51DB09A3C00C6A057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3690B71DB09A3C00C6A057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CCA2A4976ECC9AD6944348 /* Pods-Elenkos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Elenkos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.Elenkos;
+				PRODUCT_NAME = Enkos;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA3690B81DB09A3C00C6A057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34679EC585D4D12E72A6C709 /* Pods-Elenkos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Elenkos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.Elenkos;
+				PRODUCT_NAME = Enkos;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA3690BA1DB09A3C00C6A057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenkosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.ElenkosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elenkos.app/Elenkos";
+			};
+			name = Debug;
+		};
+		DA3690BB1DB09A3C00C6A057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElenkosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.ElenkosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elenkos.app/Elenkos";
+			};
+			name = Release;
+		};
+		DA3690BD1DB09A3C00C6A057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenkosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.ElenkosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Elenkos;
+			};
+			name = Debug;
+		};
+		DA3690BE1DB09A3C00C6A057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElenkosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.ElenkosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Elenkos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3690861DB09A3B00C6A057 /* Build configuration list for PBXProject "Elenkos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3690B41DB09A3C00C6A057 /* Debug */,
+				DA3690B51DB09A3C00C6A057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3690B61DB09A3C00C6A057 /* Build configuration list for PBXNativeTarget "Elenkos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3690B71DB09A3C00C6A057 /* Debug */,
+				DA3690B81DB09A3C00C6A057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3690B91DB09A3C00C6A057 /* Build configuration list for PBXNativeTarget "ElenkosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3690BA1DB09A3C00C6A057 /* Debug */,
+				DA3690BB1DB09A3C00C6A057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3690BC1DB09A3C00C6A057 /* Build configuration list for PBXNativeTarget "ElenkosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3690BD1DB09A3C00C6A057 /* Debug */,
+				DA3690BE1DB09A3C00C6A057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA3690951DB09A3B00C6A057 /* Elenkos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA3690961DB09A3B00C6A057 /* Elenkos.xcdatamodel */,
+			);
+			currentVersion = DA3690961DB09A3B00C6A057 /* Elenkos.xcdatamodel */;
+			path = Elenkos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA3690831DB09A3B00C6A057 /* Project object */;
+}

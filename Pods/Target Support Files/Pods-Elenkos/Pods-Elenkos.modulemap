@@ -1,0 +1,6 @@
+framework module Pods_Elenkos {
+  umbrella header "Pods-Elenkos-umbrella.h"
+
+  export *
+  module * { export * }
+}
